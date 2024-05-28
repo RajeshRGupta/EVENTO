@@ -1,0 +1,13 @@
+if while venv/Scripts/activate this shoign
+
+venv/Scripts/activate : File C:\Users\devil\OneDrive\Documents\Django\projects\EVENTO\venv\Scripts\Activate.ps1 cannot be loaded because running scripts is
+disabled on this system. For more information, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170.
+At line:1 char:1
++ venv/Scripts/activate
++ ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : SecurityError: (:) [], PSSecurityException
+    + FullyQualifiedErrorId : UnauthorizedAccess
+
+
+
+run    Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass

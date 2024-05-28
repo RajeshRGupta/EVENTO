@@ -1,0 +1,107 @@
+.adminDashbord,
+.superAdmin {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dashLeft,
+.superLeft {
+    height: 100%;
+    width: 20%;
+    background-color: #0c172f;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.dashLeft .container1,
+.superLeft .container1 {
+    height: 100%;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.dashLeft .logo,
+.superLeft .logo {
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+    overflow: hidden;
+    position: relative;
+    background-image: url(../../midia/logo/logo2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 200% 200%;
+}
+
+.dashLeft .logo img,
+.superLeft .logo img {
+    width: 100%;
+    /* height: 200%; */
+    position: absolute;
+    top: -40px;
+    left: -20px;
+}
+
+
+.dashLeft .adminList,
+.superLeft .adminList {
+    width: 100%;
+    height: fit-content;
+    margin-top: 50px;
+}
+
+.dashLeft .container1 .adminList1,
+.dashLeft .container1 .adminList1 {
+    width: 100%;
+    height: fit-content;
+    margin-top: 20rem;
+}
+
+.dashLeft .adminList .row .colm,
+.superLeft .adminList .row .colm {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+    padding-left: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.dashLeft .adminList .row .dashnavLink,
+.superLeft .adminList .row .dashnavLink {
+    color: white;
+    text-decoration: none;
+}
+
+.dashLeft .adminList .row .dashnavActive,
+.superLeft .adminList .row .dashnavActive {
+    font-size: 25px;
+    padding-left: 20px;
+    border-bottom: solid 2px white;
+
+}
+
+
+.dashLeft .collapse,
+.superLeft .collapse {
+    flex-direction: column;
+}
+
+.dashRight,
+.superRight {
+    height: 100%;
+    width: 80%;
+}
+
+.EventsTop {
+    height: 10%;
+}
+
+.EventsBottom {
+    height: 90%;
+    width: 100%;
+    overflow: hidden;
+}

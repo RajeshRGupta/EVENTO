@@ -1,0 +1,9 @@
+.paginationButton{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: 2%;
+}
+.paginationButton nav{
+    background-color: transparent;
+   
+}

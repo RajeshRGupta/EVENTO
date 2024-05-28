@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ConfarmForORG{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.479);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.ORGDocuments{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 87vh;
+    width: 100%;
+    z-index: 999;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+}

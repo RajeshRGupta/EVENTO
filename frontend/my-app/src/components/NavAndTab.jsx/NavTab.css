@@ -1,0 +1,38 @@
+.main-navtab{
+    padding: 12px 0;
+    position: -webkit-sticky;
+    position:sticky;
+    z-index: 99999;
+    top: 0;
+    background-color: white;
+
+}
+
+.navTab{
+    width: 50%;
+    font-size: 20px;
+    font-weight: 700;
+    gap: 50px;
+}
+
+.navTab .underline{
+    width: 120%;
+    border: solid 1px ;
+    position: absolute;
+    bottom: -12px;
+    left: -10%;
+    display: none;
+}
+
+.navTab .active .underline{
+    display: block;
+}
+
+.navTab .tekets{
+    height: fit-content;
+    width: fit-content;
+    cursor: pointer;
+    font-size: 17px;
+    color: black;
+    text-decoration: none;
+}

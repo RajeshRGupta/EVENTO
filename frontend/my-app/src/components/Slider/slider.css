@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.out-slide{
+    height: 80vh;
+}
+
+.slider-right{
+    position: relative;
+}
+
+.right-slide{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+    top: 0;
+}
+
+.right-slide .right-slide-box{
+    height: 18%;
+    width: 85%;
+    border-radius: 20px;
+    position: relative;
+    padding: 0;
+}
+
+.right-slide .right-slide-box button{
+    margin: 0;
+    margin-top: -10px;
+}
+
+.eve-logo{
+    height: 65%;
+    width: 70%;
+    border-radius: 10px;
+    background-color: aqua;
+}
+
+.slider-left .left-side-con{
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+}
+
+
+
+.Btn-Slider .main-btn{
+    width: fit-content;
+    height: fit-content;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 5px 20px;
+    border: solid 1px rgb(164, 164, 164);
+    border-radius: 20px;
+}

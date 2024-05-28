@@ -1,0 +1,52 @@
+.document-lable{
+    color: rgb(111, 111, 111);
+    font-weight: 600;
+}
+
+
+.image-input-box{
+    height:17rem;
+    width:85%;
+    border-radius:10px;
+    box-shadow:rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    overflow: hidden;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.AddUpImgBox1{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.imgInput1{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.toFile1{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.circle1{
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    color: white;
+    background-color: rgba(149, 148, 148, 0.499);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}

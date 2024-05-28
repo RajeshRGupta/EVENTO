@@ -1,0 +1,36 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.futter{
+    width: 100%;
+    
+    z-index: 99999999;
+    background-color: #0c172f;
+    color: white;
+}
+.futter ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+}
+
+.futter ul li{
+    font-size: 25px;
+}
+
+.futter a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}

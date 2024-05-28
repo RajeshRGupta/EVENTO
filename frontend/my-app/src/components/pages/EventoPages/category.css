@@ -1,0 +1,25 @@
+.btnslider{
+    width: 500px;
+}
+
+
+.btnslider .splide {
+    padding: 0 !important;
+    /* width: fit-content; */
+    
+}
+
+.btnslider .splide__track{
+    margin: 0 auto;
+    width: 76%;
+}
+
+.btnslider .splide__track li{
+    padding: 10px 0px;
+    width: fit-content !important;
+    
+}
+
+.btnslider .splide .splide__pagination {
+    display: none;
+}

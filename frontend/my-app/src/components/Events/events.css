@@ -1,0 +1,82 @@
+.evdetels{
+    border: solid 1px rgba(0, 0, 0, 0.159);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.evdetels .imgbox{
+    height: 115px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: #0000004a;
+}
+
+.delete{
+    height: fit-content;
+    width: fit-content;
+    color: #fff;
+}
+
+.evetableheding{
+    height: 10% ;
+    width: 99%;
+}
+.evetabledata{
+    height: 90%;
+    overflow: scroll;
+    scrollbar-width:thin;
+    overflow-x:hidden;
+}
+
+
+
+.homeEve{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10%;
+    overflow: hidden;
+}
+
+.homeEve .homeActEve,
+.homeEve .homeCloseEve{
+    height: 45%;
+    width: 35%;
+    border-radius: 20px;
+    box-shadow: 1px 1px 23px 2px rgba(0,0,0,0.75);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.homeEve .homeActEve{
+    background-color: rgb(1, 105, 1);
+    box-shadow: 10px 10px 5px 0px rgba(1, 105, 0, 0.642)
+}
+
+.homeEve .homeCloseEve{
+    background-color: rgb(200, 3, 3);
+    box-shadow: 10px 10px 5px 0px rgba(200, 3, 3, 0.641)
+}
+
+.homeEve .homeActEve h2,
+.homeEve .homeCloseEve h2{
+    font-variant: small-caps;
+    font-style: oblique;
+    margin-top: 20px;
+}
+
+.homeEve .homeActEve p,
+.homeEve .homeCloseEve p{
+    font-size: 80px;
+    font-weight: 900;
+    font-variant: small-caps;
+    font-style: oblique;
+    margin-top: 40px;
+}

@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.datetime img{
+    height: 25px !important;
+    width: 25px !important;
+}
+
+.buy-color{
+    border-radius: 10px;
+    background-color: rgba(0, 255, 255, 0.064);
+}
